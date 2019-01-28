@@ -58,9 +58,7 @@ class ViewController: UIViewController {
                         "You are tremendous!",
                         "You've got the design skill of Jony Ive!",
                         "I can't wait to download your app!"]
-        
-        var newIndex: Int
-        
+                
         //show a message
         index = nonRepeatingRandom(lastNumber: index, maxValue: message.count)
         messageLabel.text  = message[index]
