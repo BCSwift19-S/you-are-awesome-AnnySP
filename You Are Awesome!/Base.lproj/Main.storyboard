@@ -37,14 +37,21 @@
                                     <action selector="showMessageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7yF-nW-7eH"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image0" translatesAutoresizingMaskIntoConstraints="NO" id="UgX-gi-v5a">
+                                <rect key="frame" x="16" y="190" width="343" height="548"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="2YK-rH-YOT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7lL-2w-Bri"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aUB-IB-Zon" secondAttribute="trailing" constant="136" id="DD4-rz-WkH"/>
+                            <constraint firstItem="UgX-gi-v5a" firstAttribute="top" secondItem="aUB-IB-Zon" secondAttribute="bottom" constant="8" id="Jev-eA-iKB"/>
                             <constraint firstItem="aUB-IB-Zon" firstAttribute="top" secondItem="2YK-rH-YOT" secondAttribute="bottom" constant="8" id="K4s-Re-81M"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UgX-gi-v5a" secondAttribute="bottom" constant="40" id="QLd-On-ldo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2YK-rH-YOT" secondAttribute="trailing" constant="16" id="bpP-9n-M7d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UgX-gi-v5a" secondAttribute="trailing" constant="16" id="fvH-kl-CEj"/>
                             <constraint firstItem="2YK-rH-YOT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="iUS-No-vqX"/>
+                            <constraint firstItem="UgX-gi-v5a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="tTt-9d-8Ke"/>
                             <constraint firstItem="aUB-IB-Zon" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="yey-ZA-YVm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -58,4 +65,7 @@
             <point key="canvasLocation" x="136.80000000000001" y="133.74384236453201"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="image0" width="475" height="633"/>
+    </resources>
 </document>
